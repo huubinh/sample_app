@@ -1,0 +1,10 @@
+urls:
+  rails_tutorial_url: "https://www.railstutorial.org/"
+  rails_tutorial_book_url: "https://www.railstutorial.org/book"
+  rails_tutorial_help_url: "https://www.railstutorial.org/help"
+  rails_tutorial_contact_url: "https://www.railstutorial.org/contact"
+  rails_tutorial_screencasts_url: "https://screencasts.railstutorial.org/"
+  rails_tutorial_news_url: "https://news.railstutorial.org/"
+  learn_enough_url: "https://www.learnenough.com/"
+  ruby_on_rails_url: "https://rubyonrails.org/"
+  author_url: "https://www.michaelhartl.com/"

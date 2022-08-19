@@ -1,0 +1,18 @@
+<footer class="footer">
+  <small>
+    <%= t("footer.cre1") %>
+    <%= link_to t("footer.cre2"), Settings.urls.rails_tutorial_url %>
+    <%= t("footer.cre3") %>
+    <%= link_to t("footer.cre4"), Settings.urls.author_url %>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to t("footer.about"), about_path %></li>
+      <li><%= link_to t("footer.contact"), contact_path %></li>
+      <li><%= link_to t("footer.news"), Settings.urls.rails_tutorial_news_url %></li>
+      <li>|</li>
+      <li><%= link_to t("footer.en"), locale:"en" %></li>
+      <li><%= link_to t("footer.vi"), locale:"vi" %></li>
+    </ul>
+  </nav>
+</footer>

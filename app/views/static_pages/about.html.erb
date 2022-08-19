@@ -1,0 +1,17 @@
+<% provide(:title, t("titles.about")) %>
+<h1><%= t(".title") %></h1>
+<p>
+  <%= t(".des1") %>
+  <%= tag.a(href: Settings.urls.rails_tutorial_url) do %>
+    <em><%= t(".des2") %></em>
+  <% end %>,
+  <%= t(".des3") %>
+  <%= link_to t(".des4"), Settings.urls.learn_enough_url %>
+  <%= t(".des5") %>
+  <%= link_to t(".des6"), Settings.urls.rails_tutorial_book_url %>
+  <%= t(".des7") %>
+  <%= link_to t(".des8"), Settings.urls.rails_tutorial_screencasts_url %>
+  <%= t(".des9") %>
+  <%= link_to t(".des10"), Settings.urls.ruby_on_rails_url %>.
+  <%= t(".des11") %>
+</p>

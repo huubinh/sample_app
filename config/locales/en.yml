@@ -1,33 +1,58 @@
-# Files in the config/locales directory are used for internationalization
-# and are automatically loaded by Rails. If you want to use locales other
-# than English, add the necessary files in this directory.
-#
-# To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'
-#
-# In views, this is aliased to just `t`:
-#
-#     <%= t('hello') %>
-#
-# To use a different locale, set it with `I18n.locale`:
-#
-#     I18n.locale = :es
-#
-# This would use the information in config/locales/es.yml.
-#
-# The following keys must be escaped otherwise they will not be retrieved by
-# the default I18n backend:
-#
-# true, false, on, off, yes, no
-#
-# Instead, surround them with single quotes.
-#
-# en:
-#   'true': 'foo'
-#
-# To learn more, please read the Rails Internationalization guide
-# available at https://guides.rubyonrails.org/i18n.html.
-
 en:
-  hello: "Hello world"
+  titles:
+    base: "Ruby on Rails Tutorial Sample App"
+    help: "Help"
+    about: "About"
+    contact: "Contact"
+    signup: "Sign up"
+  header:
+    logo: "Sample App"
+    home: "Home"
+    help: "Help"
+    login: "Login"
+  footer:
+    cre1: "The"
+    cre2: "Ruby on Rails Tutorial"
+    cre3: "by"
+    cre4: "Michael Hartl"
+    about: "About"
+    contact: "Contact"
+    news: "News"
+    en: "English"
+    vi: "Vietnamese"
+  static_pages:
+    home:
+      welcome: "Welcome to the Sample App"
+      des1: "This is the home page for the"
+      des2: "Ruby on Rails Tutorial"
+      des3: "sample application."
+      signup: "Sign up now!"
+      logo: "Rails logo"
+    help:
+      title: "Help"
+      des1: "Get help on the Ruby on Rails Tutorial at the"
+      des2: "Rails Tutorial Help page"
+      des3: "To get help on this sample app, see the"
+      des4: "Ruby on Rails Tutorial"
+      des5: "book"
+    about:
+      title: "About"
+      des1: "The"
+      des2: "Ruby on Rails Tutorial"
+      des3: "part of the"
+      des4: "Learn Enough"
+      des5: "family of tutorials, is a"
+      des6: "book"
+      des7: "and"
+      des8: "screencast series"
+      des9: "to teach web development with"
+      des10: "Ruby on Rails"
+      des11: "This is the sample app for the tutorial."
+    contact:
+      title: "Contact"
+      des1: "Contact the Ruby on Rails Tutorial about the sample app at the"
+      des2: "contact page"
+  users:
+    new:
+      title: "Sign up"
+      des: "This will be a signup page for new users."
