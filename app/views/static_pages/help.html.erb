@@ -1,0 +1,10 @@
+<% provide(:title, t("titles.help")) %>
+<h1><%= t(".title") %></h1>
+<p>
+  <%= t(".des1") %>
+  <%= link_to t(".des2"), Settings.urls.rails_tutorial_help_url %>.
+  <%= t(".des3") %>
+  <%= tag.a(href: Settings.urls.rails_tutorial_book_url) do %>
+    <em><%= t(".des4") %></em> <%= t(".des5") %>
+  <% end %>.
+</p>

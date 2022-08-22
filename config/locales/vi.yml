@@ -1,0 +1,58 @@
+vi:
+  titles:
+    base: "Hướng dẫn Ruby on Rails - Sample App"
+    help: "Trợ giúp"
+    about: "Về chúng tôi"
+    contact: "Liên hệ"
+    signup: "Đăng ký"
+  header:
+    logo: "Sample App"
+    home: "Trang chủ"
+    help: "Trợ giúp"
+    login: "Đăng nhập"
+  footer:
+    cre1: ""
+    cre2: "Hướng dẫn Ruby on Rails"
+    cre3: ", được viết bởi"
+    cre4: "Michael Hartl"
+    about: "Về chúng tôi"
+    contact: "Liên hệ"
+    news: "Tin tức"
+    en: "Tiếng Anh"
+    vi: "Tiếng Việt"
+  static_pages:
+    home:
+      welcome: "Chào mừng đến với Sample App"
+      des1: "Đây là trang chủ cho ứng dụng mẫu của"
+      des2: "Hướng dẫn Ruby on Rails"
+      des3: "."
+      signup: "Đăng ký ngay!"
+      logo: "Logo Rails"
+    help:
+      title: "Trợ giúp"
+      des1: "Nhận sự trợ giúp liên quan đến Hướng dẫn Ruby on Rails tại"
+      des2: "trang Trợ giúp Hướng dẫn Rails"
+      des3: "Để nhận được sự trợ giúp liên quan đến ứng dụng mẫu này, vui lòng xem tại sách"
+      des4: "Hướng dẫn Ruby on Rails"
+      des5: ""
+    about:
+      title: "Về chúng tôi"
+      des1: ""
+      des2: "Hướng dẫn Ruby on Rails"
+      des3: "một phần của bộ sách hướng dẫn"
+      des4: "Learn Enough"
+      des5: ", là một"
+      des6: "cuốn sách"
+      des7: "đồng thời là"
+      des8: "chuỗi các màn hình được ghi chụp lại"
+      des9: "nhằm mục đích dạy phát triển web sử dụng"
+      des10: "Ruby on Rails"
+      des11: "Đây là ứng dụng mẫu cho hướng dẫn này."
+    contact:
+      title: "Liên hệ"
+      des1: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
+      des2: "trang liên hệ"
+  users:
+    new:
+      title: "Đăng ký"
+      des: "Đây sẽ là trang đăng ký cho những người dùng mới."
