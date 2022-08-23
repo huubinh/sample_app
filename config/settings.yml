@@ -8,6 +8,7 @@ urls:
   learn_enough_url: "https://www.learnenough.com/"
   ruby_on_rails_url: "https://rubyonrails.org/"
   author_url: "https://www.michaelhartl.com/"
+  avatar_url: "https://secure.gravatar.com/avatar"
 user:
   valid_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
   name_max_length: 50

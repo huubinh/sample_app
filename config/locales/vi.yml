@@ -53,6 +53,18 @@ vi:
       des1: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
       des2: "trang liên hệ"
   users:
+    show:
+      user_not_found: "Không tìm thấy người dùng."
     new:
       title: "Đăng ký"
-      des: "Đây sẽ là trang đăng ký cho những người dùng mới."
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      submit: "Tạo tài khoản"
+    create:
+      welcome: "Chào mừng đến với Sample App!"
+      sign_up_failed: "Đăng ký thất bại."
+  form_error:
+    message: "Form chứa"
+    error: "lỗi"
