@@ -53,6 +53,18 @@ en:
       des1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       des2: "contact page"
   users:
+    show:
+      user_not_found: "User not found."
     new:
       title: "Sign up"
-      des: "This will be a signup page for new users."
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+      submit: "Create my account"
+    create:
+      welcome: "Welcome to the Sample App!"
+      sign_up_failed: "Failed to sign up."
+  form_error:
+    message: "The form contains"
+    error: "error"
