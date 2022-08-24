@@ -5,10 +5,16 @@ en:
     about: "About"
     contact: "Contact"
     signup: "Sign up"
+    login: "Log in"
   header:
     logo: "Sample App"
     home: "Home"
     help: "Help"
+    users: "Users"
+    account: "Account"
+    profile: "Profile"
+    settings: "Settings"
+    logout: "Logout"
     login: "Login"
   footer:
     cre1: "The"
@@ -64,7 +70,18 @@ en:
       submit: "Create my account"
     create:
       welcome: "Welcome to the Sample App!"
-      sign_up_failed: "Failed to sign up."
+      signup_failed: "Failed to sign up."
+  sessions:
+    new:
+      title: "Log in"
+      email: "Email"
+      password: "Password"
+      submit: "Log in"
+      new_user: "New user?"
+      signup: "Sign up now!"
+    create:
+      login_success: "Logged in successfully."
+      login_error: "Invalid email/password combination."
   form_error:
     message: "The form contains"
     error: "error"
