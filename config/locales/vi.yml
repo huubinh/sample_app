@@ -76,6 +76,7 @@ vi:
       title: "Đăng nhập"
       email: "Email"
       password: "Mật khẩu"
+      remember_me: "Duy trì đăng nhập"
       submit: "Đăng nhập"
       new_user: "Bạn là người dùng mới?"
       signup: "Đăng ký ngay!"
