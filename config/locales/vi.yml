@@ -5,10 +5,16 @@ vi:
     about: "Về chúng tôi"
     contact: "Liên hệ"
     signup: "Đăng ký"
+    login: "Đăng nhập"
   header:
     logo: "Sample App"
     home: "Trang chủ"
     help: "Trợ giúp"
+    users: "Người dùng"
+    account: "Tài khoản"
+    profile: "Profile"
+    settings: "Cài đặt"
+    logout: "Đăng xuất"
     login: "Đăng nhập"
   footer:
     cre1: ""
@@ -64,7 +70,18 @@ vi:
       submit: "Tạo tài khoản"
     create:
       welcome: "Chào mừng đến với Sample App!"
-      sign_up_failed: "Đăng ký thất bại."
+      signup_failed: "Đăng ký thất bại."
+  sessions:
+    new:
+      title: "Đăng nhập"
+      email: "Email"
+      password: "Mật khẩu"
+      submit: "Đăng nhập"
+      new_user: "Bạn là người dùng mới?"
+      signup: "Đăng ký ngay!"
+    create:
+      login_success: "Đăng nhập thành công."
+      login_error: "Email hoặc mật khẩu không đúng."
   form_error:
     message: "Form chứa"
     error: "lỗi"
