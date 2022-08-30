@@ -6,26 +6,29 @@ en:
     contact: "Contact"
     signup: "Sign up"
     login: "Log in"
-  header:
-    logo: "Sample App"
-    home: "Home"
-    help: "Help"
-    users: "Users"
-    account: "Account"
-    profile: "Profile"
-    settings: "Settings"
-    logout: "Logout"
-    login: "Login"
-  footer:
-    cre1: "The"
-    cre2: "Ruby on Rails Tutorial"
-    cre3: "by"
-    cre4: "Michael Hartl"
-    about: "About"
-    contact: "Contact"
-    news: "News"
-    en: "English"
-    vi: "Vietnamese"
+    edit: "Edit user"
+    index: "All users"
+  layouts:
+    header:
+      logo: "Sample App"
+      home: "Home"
+      help: "Help"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Logout"
+      login: "Login"
+    footer:
+      cre1: "The"
+      cre2: "Ruby on Rails Tutorial"
+      cre3: "by"
+      cre4: "Michael Hartl"
+      about: "About"
+      contact: "Contact"
+      news: "News"
+      en: "English"
+      vi: "Vietnamese"
   static_pages:
     home:
       welcome: "Welcome to the Sample App"
@@ -59,18 +62,37 @@ en:
       des1: "Contact the Ruby on Rails Tutorial about the sample app at the"
       des2: "contact page"
   users:
+    login_required: "Please log in."
+    wrong_user: "Only account owner can do that."
+    admin_required: "Only admin can do that."
+    index:
+      title: "All users"
     show:
       user_not_found: "User not found."
     new:
       title: "Sign up"
-      name: "Name"
-      email: "Email"
-      password: "Password"
-      confirmation: "Confirmation"
       submit: "Create my account"
     create:
       welcome: "Welcome to the Sample App!"
       signup_failed: "Failed to sign up."
+    edit:
+      title: "Update your profile"
+      submit: "Save changes"
+      change: "Change"
+    update:
+      user_updated: "Profile updated."
+      update_failed: "Failed to update profile."
+    destroy:
+      user_deleted: "User deleted."
+      delete_failed: "Failed to delete user."
+    form:
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      confirmation: "Confirmation"
+    user:
+      delete_user: "Delete"
+      delete_confirm: "You sure?"
   sessions:
     new:
       title: "Log in"
@@ -83,6 +105,7 @@ en:
     create:
       login_success: "Logged in successfully."
       login_error: "Invalid email/password combination."
-  form_error:
-    message: "The form contains"
-    error: "error"
+  shared:
+    error_messages:
+      error_message: "The form contains"
+      error: "error"

@@ -6,26 +6,29 @@ vi:
     contact: "Liên hệ"
     signup: "Đăng ký"
     login: "Đăng nhập"
-  header:
-    logo: "Sample App"
-    home: "Trang chủ"
-    help: "Trợ giúp"
-    users: "Người dùng"
-    account: "Tài khoản"
-    profile: "Profile"
-    settings: "Cài đặt"
-    logout: "Đăng xuất"
-    login: "Đăng nhập"
-  footer:
-    cre1: ""
-    cre2: "Hướng dẫn Ruby on Rails"
-    cre3: ", được viết bởi"
-    cre4: "Michael Hartl"
-    about: "Về chúng tôi"
-    contact: "Liên hệ"
-    news: "Tin tức"
-    en: "Tiếng Anh"
-    vi: "Tiếng Việt"
+    edit: "Chỉnh sửa"
+    index: "Danh sách người dùng"
+  layouts:
+    header:
+      logo: "Sample App"
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Profile"
+      settings: "Cài đặt"
+      logout: "Đăng xuất"
+      login: "Đăng nhập"
+    footer:
+      cre1: ""
+      cre2: "Hướng dẫn Ruby on Rails"
+      cre3: ", được viết bởi"
+      cre4: "Michael Hartl"
+      about: "Về chúng tôi"
+      contact: "Liên hệ"
+      news: "Tin tức"
+      en: "Tiếng Anh"
+      vi: "Tiếng Việt"
   static_pages:
     home:
       welcome: "Chào mừng đến với Sample App"
@@ -59,18 +62,37 @@ vi:
       des1: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
       des2: "trang liên hệ"
   users:
+    login_required: "Vui lòng đăng nhập."
+    wrong_user: "Tính năng chỉ dành cho chủ tài khoản."
+    admin_required: "Tính năng chỉ dành cho admin."
+    index:
+      title: "Danh sách người dùng"
     show:
       user_not_found: "Không tìm thấy người dùng."
     new:
       title: "Đăng ký"
-      name: "Tên"
-      email: "Email"
-      password: "Mật khẩu"
-      confirmation: "Xác nhận mật khẩu"
       submit: "Tạo tài khoản"
     create:
       welcome: "Chào mừng đến với Sample App!"
       signup_failed: "Đăng ký thất bại."
+    edit:
+      title: "Cập nhật profile"
+      submit: "Lưu thay đổi"
+      change: "Thay đổi"
+    update:
+      user_updated: "Đã cập nhật profile."
+      update_failed: "Cập nhật profile không thành công."
+    destroy:
+      user_deleted: "Đã xóa người dùng."
+      delete_failed: "Xóa người dùng không thành công."
+    form:
+      name: "Tên"
+      email: "Email"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+    user:
+      delete_user: "Xóa"
+      delete_confirm: "Bạn đã chắc chắn?"
   sessions:
     new:
       title: "Đăng nhập"
@@ -83,6 +105,7 @@ vi:
     create:
       login_success: "Đăng nhập thành công."
       login_error: "Email hoặc mật khẩu không đúng."
-  form_error:
-    message: "Form chứa"
-    error: "lỗi"
+  shared:
+    error_messages:
+      error_message: "Form chứa"
+      error: "lỗi"

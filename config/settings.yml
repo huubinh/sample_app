@@ -9,8 +9,13 @@ urls:
   ruby_on_rails_url: "https://rubyonrails.org/"
   author_url: "https://www.michaelhartl.com/"
   avatar_url: "https://secure.gravatar.com/avatar"
+  avatar_edit_url: "https://gravatar.com/emails"
 user:
   valid_email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-]+(\.[a-z\d\-]+)*\.[a-z]+\z/i
   name_max_length: 50
   email_max_length: 255
   password_min_length: 6
+  user_per_page: 30
+  default_avatar_size: 80
+  index_avatar_size: 50
+  index_user_order: "name ASC"
