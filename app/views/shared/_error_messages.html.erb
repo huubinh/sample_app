@@ -1,8 +1,8 @@
 <% if @user.errors.any? %>
   <div id="error_explanation">
     <div class="alert alert-danger">
-      <%= t("form_error.message") %>
-      <%= pluralize(@user.errors.count, t("form_error.error")) %>.
+      <%= t(".error_message") %>
+      <%= pluralize(@user.errors.count, t(".error")) %>.
     </div>
     <ul>
       <% @user.errors.full_messages.each do |msg| %>
