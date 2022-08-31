@@ -5,11 +5,16 @@ class UsersController < ApplicationController
   before_action :admin_user, only: %i(destroy)
 
   def index
-    @pagy, @users = pagy User.order(Settings.user.index_user_order),
+    @pagy, @users = pagy User.activated.order(Settings.user.index_user_order),
                          items: Settings.user.user_per_page
   end
 
-  def show; end
+  def show
+    return if @user.activated?
+
+    flash[:danger] = t(".unactivated_account")
+    redirect_to root_url
+  end
 
   def new
     @user = User.new
@@ -18,9 +23,9 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      log_in @user
-      flash[:success] = t(".welcome")
-      redirect_to @user
+      @user.send_activation_email
+      flash[:info] = t(".check_email")
+      redirect_to root_url
     else
       flash.now[:danger] = t(".signup_failed")
       render :new

@@ -2,9 +2,9 @@
   <h1><%= t(".welcome") %></h1>
   <h2>
     <%= t(".des1") %>
-    <%= link_to t(".des2"), Settings.urls.rails_tutorial_url %>
+    <%= link_to t(".des2"), Settings.url.rails_tutorial_url %>
     <%= t(".des3") %>
   </h2>
   <%= link_to t(".signup"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>
-<%= link_to image_tag("rails.svg", alt: t(".logo"), width: "200px"), Settings.urls.ruby_on_rails_url %>
+<%= link_to image_tag("rails.svg", alt: t(".logo"), width: "200px"), Settings.url.ruby_on_rails_url %>
