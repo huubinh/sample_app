@@ -1,4 +1,4 @@
-urls:
+url:
   rails_tutorial_url: "https://www.railstutorial.org/"
   rails_tutorial_book_url: "https://www.railstutorial.org/book"
   rails_tutorial_help_url: "https://www.railstutorial.org/help"

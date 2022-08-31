@@ -63,17 +63,18 @@ en:
       des2: "contact page"
   users:
     login_required: "Please log in."
+    user_not_found: "User not found."
     wrong_user: "Only account owner can do that."
     admin_required: "Only admin can do that."
     index:
       title: "All users"
     show:
-      user_not_found: "User not found."
+      unactivated_account: "Can not show unactivated account's information."
     new:
       title: "Sign up"
       submit: "Create my account"
     create:
-      welcome: "Welcome to the Sample App!"
+      check_email: "Please check your email to activate your account."
       signup_failed: "Failed to sign up."
     edit:
       title: "Update your profile"
@@ -94,6 +95,7 @@ en:
       delete_user: "Delete"
       delete_confirm: "You sure?"
   sessions:
+    unactivated_account: "Account not activated. Check your email for the activation link."
     new:
       title: "Log in"
       email: "Email"
@@ -105,7 +107,18 @@ en:
     create:
       login_success: "Logged in successfully."
       login_error: "Invalid email/password combination."
+  account_activations:
+    edit:
+      activate_success: "Account activated!"
+      activate_error: "Invalid activation link."
   shared:
     error_messages:
       error_message: "The form contains"
       error: "error"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      title: "Sample App"
+      hi: "Hi"
+      des: "Welcome to the Sample App! Click on the link below to activate your account:"
+      activate: "Activate"

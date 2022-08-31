@@ -63,17 +63,18 @@ vi:
       des2: "trang liên hệ"
   users:
     login_required: "Vui lòng đăng nhập."
+    user_not_found: "Không tìm thấy người dùng."
     wrong_user: "Tính năng chỉ dành cho chủ tài khoản."
     admin_required: "Tính năng chỉ dành cho admin."
     index:
       title: "Danh sách người dùng"
     show:
-      user_not_found: "Không tìm thấy người dùng."
+      unactivated_account: "Không thể hiển thị thông tin của tài khoản chưa kích hoạt."
     new:
       title: "Đăng ký"
       submit: "Tạo tài khoản"
     create:
-      welcome: "Chào mừng đến với Sample App!"
+      check_email: "Vui lòng kiểm tra email để kích hoạt tài khoản."
       signup_failed: "Đăng ký thất bại."
     edit:
       title: "Cập nhật profile"
@@ -94,6 +95,7 @@ vi:
       delete_user: "Xóa"
       delete_confirm: "Bạn đã chắc chắn?"
   sessions:
+    unactivated_account: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email để có link kích hoạt."
     new:
       title: "Đăng nhập"
       email: "Email"
@@ -105,7 +107,18 @@ vi:
     create:
       login_success: "Đăng nhập thành công."
       login_error: "Email hoặc mật khẩu không đúng."
+  account_activations:
+    edit:
+      activate_success: "Tài khoản đã được kích hoạt!"
+      activate_error: "Link kích hoạt không hợp lệ."
   shared:
     error_messages:
       error_message: "Form chứa"
       error: "lỗi"
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      title: "Sample App"
+      hi: "Xin chào"
+      des: "Chào mừng đến với Sample App! Click vào link bên dưới để kích hoạt tài khoản của bạn:"
+      activate: "Kích hoạt"
