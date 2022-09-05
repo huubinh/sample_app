@@ -8,6 +8,8 @@ en:
     login: "Log in"
     edit: "Edit user"
     index: "All users"
+    forgot: "Forgot password"
+    reset: "Reset password"
   layouts:
     header:
       logo: "Sample App"
@@ -100,6 +102,7 @@ en:
       title: "Log in"
       email: "Email"
       password: "Password"
+      forgot_password: "(Forgot password?)"
       remember_me: "Remember me on this computer"
       submit: "Log in"
       new_user: "New user?"
@@ -111,6 +114,25 @@ en:
     edit:
       activate_success: "Account activated!"
       activate_error: "Invalid activation link."
+  password_resets:
+    user_not_found: "User not found."
+    invalid_account: "Invalid account."
+    link_expired: "Password reset has expired."
+    new:
+      title: "Forgot password"
+      email: "Email"
+      submit: "Submit"
+    create:
+      email_sent: "Email sent with password reset instructions."
+      address_not_found: "Email address not found."
+    edit:
+      title: "Reset password"
+      password: "Password"
+      confirmation: "Confirmation"
+      submit: "Update password"
+    update:
+      reset_success: "Password has been reset."
+      reset_failed: "Failed to reset password."
   shared:
     error_messages:
       error_message: "The form contains"
@@ -122,3 +144,10 @@ en:
       hi: "Hi"
       des: "Welcome to the Sample App! Click on the link below to activate your account:"
       activate: "Activate"
+    password_reset:
+      subject: "Password reset"
+      title: "Password reset"
+      des1: "To reset your password click the link below:"
+      reset: "Reset password"
+      des2: "This link will expire in two hours."
+      des3: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."

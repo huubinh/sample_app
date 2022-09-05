@@ -8,6 +8,8 @@ vi:
     login: "Đăng nhập"
     edit: "Chỉnh sửa"
     index: "Danh sách người dùng"
+    forgot: "Quên mật khẩu"
+    reset: "Đặt lại mật khẩu"
   layouts:
     header:
       logo: "Sample App"
@@ -100,6 +102,7 @@ vi:
       title: "Đăng nhập"
       email: "Email"
       password: "Mật khẩu"
+      forgot_password: "(Quên mật khẩu?)"
       remember_me: "Duy trì đăng nhập"
       submit: "Đăng nhập"
       new_user: "Bạn là người dùng mới?"
@@ -111,6 +114,25 @@ vi:
     edit:
       activate_success: "Tài khoản đã được kích hoạt!"
       activate_error: "Link kích hoạt không hợp lệ."
+  password_resets:
+    user_not_found: "Không tìm thấy người dùng."
+    invalid_account: "Tài khoản không hợp lệ."
+    link_expired: "Link đặt lại mật khẩu đã hết hiệu lực."
+    new:
+      title: "Quên mật khẩu"
+      email: "Email"
+      submit: "Gửi"
+    create:
+      email_sent: "Email kèm hướng dẫn đặt lại mật khẩu đã được gửi."
+      address_not_found: "Không tìm thấy địa chỉ email."
+    edit:
+      title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      confirmation: "Xác nhận mật khẩu"
+      submit: "Cập nhật mật khẩu"
+    update:
+      reset_success: "Mật khẩu đã được đặt lại."
+      reset_failed: "Đặt lại mật khẩu không thành công."
   shared:
     error_messages:
       error_message: "Form chứa"
@@ -122,3 +144,10 @@ vi:
       hi: "Xin chào"
       des: "Chào mừng đến với Sample App! Click vào link bên dưới để kích hoạt tài khoản của bạn:"
       activate: "Kích hoạt"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      title: "Đặt lại mật khẩu"
+      des1: "Để đặt lại mật khẩu vui lòng click vào link bên dưới:"
+      reset: "Đặt lại mật khẩu"
+      des2: "Đường link này sẽ hết hiệu lực sau 2 giờ."
+      des3: "Nếu đây không phải là yêu cầu mà bạn thực hiện, vui lòng bỏ qua thư này và mật khẩu của bạn sẽ không bị thay đổi."
