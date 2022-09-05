@@ -19,3 +19,4 @@ user:
   default_avatar_size: 80
   index_avatar_size: 50
   index_user_order: "name ASC"
+  reset_link_expire_in: 2
