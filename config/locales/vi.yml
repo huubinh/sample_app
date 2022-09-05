@@ -32,7 +32,9 @@ vi:
       en: "Tiếng Anh"
       vi: "Tiếng Việt"
   static_pages:
-    home:
+    logged_in_home:
+      feed: "Bảng tin"
+    non_logged_in_home:
       welcome: "Chào mừng đến với Sample App"
       des1: "Đây là trang chủ cho ứng dụng mẫu của"
       des2: "Hướng dẫn Ruby on Rails"
@@ -64,7 +66,6 @@ vi:
       des1: "Liên hệ với Hướng dẫn Ruby on Rails về ứng dụng mẫu tại"
       des2: "trang liên hệ"
   users:
-    login_required: "Vui lòng đăng nhập."
     user_not_found: "Không tìm thấy người dùng."
     wrong_user: "Tính năng chỉ dành cho chủ tài khoản."
     admin_required: "Tính năng chỉ dành cho admin."
@@ -72,6 +73,7 @@ vi:
       title: "Danh sách người dùng"
     show:
       unactivated_account: "Không thể hiển thị thông tin của tài khoản chưa kích hoạt."
+      microposts: "Bài viết"
     new:
       title: "Đăng ký"
       submit: "Tạo tài khoản"
@@ -96,6 +98,22 @@ vi:
     user:
       delete_user: "Xóa"
       delete_confirm: "Bạn đã chắc chắn?"
+  microposts:
+    invalid_account: "Tài khoản không hợp lệ."
+    invalid_type: "phải là một format ảnh hợp lệ"
+    invalid_size: "phải nhỏ hơn 5MB"
+    maximum_file_size: "Kích thước tối đa là 5MB. Vui lòng chọn file nhỏ hơn."
+    create:
+      post_created: "Đã tạo bài viết!"
+      create_failed: "Tạo bài viết không thành công."
+    destroy:
+      post_deleted: "Đã xóa bài viết."
+      delete_failed: "Xóa bài viết không thành công."
+    micropost:
+      posted: "Đã đăng"
+      ago: "trước."
+      delete: "Xóa"
+      confirm: "Bạn đã chắc chắn?"
   sessions:
     unactivated_account: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email để có link kích hoạt."
     new:
@@ -137,6 +155,12 @@ vi:
     error_messages:
       error_message: "Form chứa"
       error: "lỗi"
+    micropost_form:
+      new_post: "Nhập nội dung..."
+      submit: "Đăng"
+    user_info:
+      view_profile: "Xem profile"
+      micropost: "bài viết"
   user_mailer:
     account_activation:
       subject: "Kích hoạt tài khoản"
@@ -151,3 +175,4 @@ vi:
       reset: "Đặt lại mật khẩu"
       des2: "Đường link này sẽ hết hiệu lực sau 2 giờ."
       des3: "Nếu đây không phải là yêu cầu mà bạn thực hiện, vui lòng bỏ qua thư này và mật khẩu của bạn sẽ không bị thay đổi."
+  login_required: "Vui lòng đăng nhập."

@@ -5,15 +5,18 @@ class UsersController < ApplicationController
   before_action :admin_user, only: %i(destroy)
 
   def index
-    @pagy, @users = pagy User.activated.order(Settings.user.index_user_order),
+    @pagy, @users = pagy User.activated.sort_by_name,
                          items: Settings.user.user_per_page
   end
 
   def show
-    return if @user.activated?
-
-    flash[:danger] = t(".unactivated_account")
-    redirect_to root_url
+    if @user.activated?
+      @pagy, @microposts = pagy @user.microposts.recent,
+                                items: Settings.micropost.micropost_per_page
+    else
+      flash[:danger] = t(".unactivated_account")
+      redirect_to root_url
+    end
   end
 
   def new
@@ -58,14 +61,6 @@ class UsersController < ApplicationController
   def user_params
     params.require(:user).permit(:name, :email, :password,
                                  :password_confirmation)
-  end
-
-  def logged_in_user
-    return if logged_in?
-
-    store_location
-    flash[:danger] = t(".login_required")
-    redirect_to login_url
   end
 
   def find_user

@@ -9,7 +9,9 @@ import * as ActiveStorage from '@rails/activestorage';
 import 'channels';
 import 'jquery';
 import 'bootstrap';
+import I18n from 'i18n-js';
 
 Rails.start();
 Turbolinks.start();
 ActiveStorage.start();
+window.I18n = I18n;
