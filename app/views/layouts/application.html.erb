@@ -8,7 +8,7 @@
     <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
     <%= render "layouts/shim" %>
   </head>
-  <body>
+  <body data-locale="<%= I18n.locale %>">
     <%= render "layouts/header" %>
     <div class="container">
       <% flash.each do |message_type, message| %>
@@ -19,4 +19,7 @@
       <%= debug(params) if Rails.env.development? %>
     </div>
   </body>
+  <script>
+    window.I18n = <%= current_translations.to_json.html_safe %>
+  </script>
 </html>
